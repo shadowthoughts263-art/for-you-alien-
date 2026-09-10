@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For You, Alien 👽🤍</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffe8f0, #eee5ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #444;
+}
+
+.card {
+  width: 100%;
+  max-width: 430px;
+  background: rgba(255,255,255,0.92);
+  border-radius: 28px;
+  padding: 32px 24px;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+}
+
+.alien {
+  font-size: 60px;
+  animation: float 2s infinite ease-in-out;
+}
+
+h1 {
+  font-size: 27px;
+  margin: 15px 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 13px 24px;
+  border: none;
+  border-radius: 30px;
+  background: #ff9fba;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#hidden {
+  display: none;
+  margin-top: 22px;
+}
+
+.footer {
+  margin-top: 25px;
+  font-size: 13px;
+  color: #999;
+}
+
+@keyframes float {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="alien">👽</div>
+
+  <h1>For You, Alien 🤍</h1>
+
+  <p>
+    Okay... hear me out for a minute. 🥺
+  </p>
+
+  <p>
+    I know things haven't been the same between us lately,
+    and I know I haven't handled everything the way I should have.
+  </p>
+
+  <p class="highlight">
+    I'm genuinely sorry, yaar. 🤍
+  </p>
+
+  <p>
+    I never wanted our friendship to become this complicated.
+    You're someone I genuinely care about, and I don't want
+    a few bad moments to erase all the good ones we've had.
+  </p>
+
+  <button onclick="showMessage()">
+    One more thing... 🥺
+  </button>
+
+  <div id="hidden">
+
+    <p>
+      I'm not making this to force you to reply
+      or to make you forget everything instantly.
+    </p>
+
+    <p>
+      I just wanted to say sorry properly...
+      because sometimes a simple "sorry" doesn't feel enough. 🫶
+    </p>
+
+    <p>
+      Whenever you're ready, we can talk.
+      No pressure.
+    </p>
+
+    <p class="highlight">
+      Bas ek baar phir se normal ho ja na, idiot. 😭🤍
+    </p>
+
+    <p>
+      — From your annoying friend 🫠
+    </p>
+
+  </div>
+
+  <div class="footer">
+    Made with too much overthinking & a little bit of hope 👽
+  </div>
+
+</div>
+
+<script>
+function showMessage() {
+  document.getElementById("hidden").style.display = "block";
+}
+</script>
+
+</body>
+  </html>
